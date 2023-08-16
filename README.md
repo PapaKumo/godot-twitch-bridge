@@ -1,3 +1,13 @@
+# What is this?
+
+This is an early prototype of a Twitch integrated webserver which we can later use to control a game.
+
+The idea is that by building the Twitch integration as a webserver, we can [expose data to Godot](https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_web.html#calling-javascript-from-script) via its [JavaScriptBridge](https://docs.godotengine.org/en/stable/classes/class_javascriptbridge.html).
+
+Or maybe by using [WebSockets](https://docs.godotengine.org/en/stable/tutorials/networking/websocket.html).
+
+Hopefully this makes it easier to develop the game and the Twitch integration separately and concurrently.
+
 # Installation
 
 ## Requirements
