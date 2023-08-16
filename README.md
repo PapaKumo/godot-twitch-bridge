@@ -42,8 +42,8 @@ Necessary steps before running the server.
 
   ```yaml
   bot:
-  	user: papakumo
-  	channel: papakumo
+    user: papakumo
+    channel: papakumo
   ```
 
   - We will need to get an access token for the bot. We will do this by running the server.
