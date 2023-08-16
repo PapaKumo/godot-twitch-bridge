@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"baseUrl": ".",
+		"paths": {
+			"*": ["node_modules/*", "src/@types/*"],
+			"@/*": ["./*"]
+		},
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"resolveJsonModule": true,
+		"outDir": "./build",
+		"module": "NodeNext",
+		"moduleResolution": "NodeNext",
+		"allowImportingTsExtensions": true,
+		"noEmit": true
+	},
+	"include": ["./src"],
+	"exclude": ["./build"],
+	"ts-node": {
+		"esm": true
+	}
+}

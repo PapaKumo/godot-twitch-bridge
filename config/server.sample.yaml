@@ -1,0 +1,16 @@
+# The hostname to listen on
+hostName: localhost
+
+# The port to listen on
+port: 13371
+
+# Twitch API credentials
+twitch:
+  clientId: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  clientSecret: xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+bot:
+  # The Twitch user we will use to join the channel
+  user: name_of_bot_user
+  # The channel to join
+  channel: channel_to_join
